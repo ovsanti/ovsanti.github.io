@@ -1,3 +1,3 @@
 Personal website by ovsanti.
 
-I am learning code in the process :)
+I am learning code in the meantime :)
