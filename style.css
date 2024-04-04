@@ -10,22 +10,19 @@ body{
     color: white;
     text-align:center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 3.0);
+    margin: auto;
+    width: 50%;
 }
 
-.container {
-    display: flex;
-    max-width: px;
-    height: 90px;
-    opacity: 30%;
-    margin:auto;
-    border: 2px;
-    background-color:black
+ul{
+    text-align:center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,3.0);
 }
 
-.container span {
-    margin:auto;
+li{
+    text-align: center;
 }
-
 
 h1{
     text-align:center;
