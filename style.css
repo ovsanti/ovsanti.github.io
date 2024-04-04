@@ -102,5 +102,6 @@ li{
 .navbar li{
     float:center;
     border: 10px;
+    size: 1in;
 }
 
