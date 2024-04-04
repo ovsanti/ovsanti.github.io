@@ -1,17 +1,44 @@
 
 body{
+    font-family: "Reddit Mono", monospace;
     background-image: url(mainbackground.jpg);
-    background-size: cover;
+    background-size:cover;
     background-repeat:no-repeat;
-    Height: 100vh;
+    Height: 98vh;
 }
 
-.ch1 {
+.chp {
     color: white;
     text-align:center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 3.0);
     margin: auto;
     width: 50%;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height:auto;
+    }
+}
+
+button{
+    background: black;
+    padding: 8px 22px;
+    border-radius: 6px;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+button:active{
+    transform: scale(0.76);
 }
 
 ul{
@@ -20,13 +47,20 @@ ul{
     text-shadow: 2px 2px 4px rgba(0,0,0,3.0);
 }
 
+title{
+    text-align: center;
+}
+
 li{
     text-align: center;
 }
 
-h1{
+.mainheading{
     text-align:center;
     color: white;
+    font-size: 160px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0,0,0,3.0);
 }
 
 h2{
@@ -44,27 +78,29 @@ li{
 }
 .navbar ul{
     list-style-type:none;
-    background-color:black;
-    padding:0px;
-    margin:0px;
+    background-color:transparent;
+    padding:10px;
+    margin:10px;
     overflow:hidden;
-    border-radius:5px;
+    border-radius:10px;
 }
 
 .navbar a{
     color:white;
-    text-decoration:none;
+    text-decoration:wavy;
     padding:15px;
     display:block;
     text-align:center;
 }
 
 .navbar a:hover{
-    background-color: darkblue;
-    border-radius:5px;
+    background-color: rgba(0, 0, 0, 0.866);
+    border-radius:100px;
+    transition: all 0.2s ease-out;
 }
 
 .navbar li{
-    float:left;
+    float:center;
+    border: 10px;
 }
 
